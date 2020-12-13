@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F416BE08258606BC00C0D910 /* AnaSayfaUstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416BE06258606BC00C0D910 /* AnaSayfaUstCell.swift */; };
+		F416BE09258606BC00C0D910 /* AnaSayfaUstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F416BE07258606BC00C0D910 /* AnaSayfaUstCell.xib */; };
+		F416BE1125861E6A00C0D910 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416BE1025861E6A00C0D910 /* UIImageView+Extension.swift */; };
+		F416BE162586217C00C0D910 /* AltCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416BE152586217C00C0D910 /* AltCellModel.swift */; };
+		F416BE1E258623AA00C0D910 /* AnaSayfaVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416BE1D258623AA00C0D910 /* AnaSayfaVM.swift */; };
+		F48CFDA425850CCA00167C6B /* AnaSayfaAltCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFDA225850CCA00167C6B /* AnaSayfaAltCell.swift */; };
+		F48CFDA525850CCA00167C6B /* AnaSayfaAltCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48CFDA325850CCA00167C6B /* AnaSayfaAltCell.xib */; };
 		F4D369392584EDEC007AAD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D369382584EDEC007AAD70 /* AppDelegate.swift */; };
 		F4D3693B2584EDEC007AAD70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3693A2584EDEC007AAD70 /* SceneDelegate.swift */; };
-		F4D3693D2584EDEC007AAD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3693C2584EDEC007AAD70 /* ViewController.swift */; };
+		F4D3693D2584EDEC007AAD70 /* AnaSayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3693C2584EDEC007AAD70 /* AnaSayfaVC.swift */; };
 		F4D369402584EDEC007AAD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D3693E2584EDEC007AAD70 /* Main.storyboard */; };
 		F4D369422584EDEF007AAD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D369412584EDEF007AAD70 /* Assets.xcassets */; };
 		F4D369452584EDEF007AAD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D369432584EDEF007AAD70 /* LaunchScreen.storyboard */; };
@@ -35,10 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F416BE06258606BC00C0D910 /* AnaSayfaUstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaUstCell.swift; sourceTree = "<group>"; };
+		F416BE07258606BC00C0D910 /* AnaSayfaUstCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnaSayfaUstCell.xib; sourceTree = "<group>"; };
+		F416BE1025861E6A00C0D910 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		F416BE152586217C00C0D910 /* AltCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltCellModel.swift; sourceTree = "<group>"; };
+		F416BE1D258623AA00C0D910 /* AnaSayfaVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaVM.swift; sourceTree = "<group>"; };
+		F48CFDA225850CCA00167C6B /* AnaSayfaAltCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaAltCell.swift; sourceTree = "<group>"; };
+		F48CFDA325850CCA00167C6B /* AnaSayfaAltCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnaSayfaAltCell.xib; sourceTree = "<group>"; };
 		F4D369352584EDEC007AAD70 /* YoutuberAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutuberAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D369382584EDEC007AAD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D3693A2584EDEC007AAD70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4D3693C2584EDEC007AAD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D3693C2584EDEC007AAD70 /* AnaSayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaVC.swift; sourceTree = "<group>"; };
 		F4D3693F2584EDEC007AAD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D369412584EDEF007AAD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D369442584EDEF007AAD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +90,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F416BE052586067400C0D910 /* AnaSayfaUstCell */ = {
+			isa = PBXGroup;
+			children = (
+				F416BE06258606BC00C0D910 /* AnaSayfaUstCell.swift */,
+				F416BE07258606BC00C0D910 /* AnaSayfaUstCell.xib */,
+			);
+			path = AnaSayfaUstCell;
+			sourceTree = "<group>";
+		};
+		F48CFDA925850D0600167C6B /* AnaSayfaAltCell */ = {
+			isa = PBXGroup;
+			children = (
+				F48CFDA325850CCA00167C6B /* AnaSayfaAltCell.xib */,
+				F48CFDA225850CCA00167C6B /* AnaSayfaAltCell.swift */,
+			);
+			path = AnaSayfaAltCell;
+			sourceTree = "<group>";
+		};
+		F48CFDAD25850E6500167C6B /* AnaSayfa */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3693C2584EDEC007AAD70 /* AnaSayfaVC.swift */,
+				F4D3693E2584EDEC007AAD70 /* Main.storyboard */,
+				F416BE152586217C00C0D910 /* AltCellModel.swift */,
+				F416BE1D258623AA00C0D910 /* AnaSayfaVM.swift */,
+			);
+			path = AnaSayfa;
+			sourceTree = "<group>";
+		};
 		F4D3692C2584EDEC007AAD70 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +142,15 @@
 		F4D369372584EDEC007AAD70 /* YoutuberAppV2 */ = {
 			isa = PBXGroup;
 			children = (
+				F48CFDAD25850E6500167C6B /* AnaSayfa */,
+				F416BE052586067400C0D910 /* AnaSayfaUstCell */,
+				F48CFDA925850D0600167C6B /* AnaSayfaAltCell */,
 				F4D369382584EDEC007AAD70 /* AppDelegate.swift */,
 				F4D3693A2584EDEC007AAD70 /* SceneDelegate.swift */,
-				F4D3693C2584EDEC007AAD70 /* ViewController.swift */,
-				F4D3693E2584EDEC007AAD70 /* Main.storyboard */,
 				F4D369412584EDEF007AAD70 /* Assets.xcassets */,
 				F4D369432584EDEF007AAD70 /* LaunchScreen.storyboard */,
 				F4D369462584EDEF007AAD70 /* Info.plist */,
+				F416BE1025861E6A00C0D910 /* UIImageView+Extension.swift */,
 			);
 			path = YoutuberAppV2;
 			sourceTree = "<group>";
@@ -231,7 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F416BE09258606BC00C0D910 /* AnaSayfaUstCell.xib in Resources */,
 				F4D369452584EDEF007AAD70 /* LaunchScreen.storyboard in Resources */,
+				F48CFDA525850CCA00167C6B /* AnaSayfaAltCell.xib in Resources */,
 				F4D369422584EDEF007AAD70 /* Assets.xcassets in Resources */,
 				F4D369402584EDEC007AAD70 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D3693D2584EDEC007AAD70 /* ViewController.swift in Sources */,
+				F416BE1125861E6A00C0D910 /* UIImageView+Extension.swift in Sources */,
+				F4D3693D2584EDEC007AAD70 /* AnaSayfaVC.swift in Sources */,
+				F416BE1E258623AA00C0D910 /* AnaSayfaVM.swift in Sources */,
+				F48CFDA425850CCA00167C6B /* AnaSayfaAltCell.swift in Sources */,
+				F416BE162586217C00C0D910 /* AltCellModel.swift in Sources */,
+				F416BE08258606BC00C0D910 /* AnaSayfaUstCell.swift in Sources */,
 				F4D369392584EDEC007AAD70 /* AppDelegate.swift in Sources */,
 				F4D3693B2584EDEC007AAD70 /* SceneDelegate.swift in Sources */,
 			);
